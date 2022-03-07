@@ -21,5 +21,13 @@ exit;
     }
 }
 
+<<<<<<< HEAD
 getConnection();
 
+=======
+try {
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (\Throwable $th) {
+    echo "Erro: " . $th;
+}
+>>>>>>> 90706750186ad4f525390de629afe6b034fe2010
